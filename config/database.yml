@@ -4,4 +4,4 @@ default: &default
 
 development:
   <<: *default
-  database: helloelasticsearch_development
+  database: hellorails_development
