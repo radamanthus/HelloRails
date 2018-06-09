@@ -43,7 +43,10 @@ end
 
 group :development do
   # Deployment
-  gem "capistrano", "~> 3.10", require: false
+  gem 'capistrano', '~> 3.6', require: false
+  gem 'capistrano-bundler', '~> 1.3', require: false
+  gem 'capistrano-rails', '~> 1.4', require: false
+  gem 'capistrano-passenger', require: false
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
